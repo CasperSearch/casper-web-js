@@ -1,12 +1,15 @@
 {
-  "name": "${PROJECT_NAME}",
+  "name": "casper-web-js",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^1.7.7"
+  },
   "devDependencies": {
     "typescript": "^5.5.3"
   },
